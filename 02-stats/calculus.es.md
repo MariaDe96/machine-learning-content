@@ -15,18 +15,18 @@ Entonces, pensando como un ingeniero, no solo nos importa encontrar las respuest
 
 ### Integrales
 
-Por ejemplo, si quisieramos saber cuan lejos ha caminado una persona basada en su velocidad en cada punto del tiempo, podemos dividirlo por muchos puntos en el tiempo y multiplicar la velocidad en cada instante (t) por un pequeño cambio en el tiempo (dt) para obtener la distancia más pequeña correspondiente recorrida en ese periodo más pequeño.
+Por ejemplo, si quisieramos saber cuanto tiempo ha caminado una persona basada en su velocidad en cada punto del tiempo, podemos dividirlo por muchos puntos en el tiempo y multiplicar la velocidad en cada instante (t) por un pequeño cambio en el tiempo (dt) para obtener la distancia más pequeña correspondiente recorrida en ese periodo más pequeño.
 
 Muchos de estos tipos de problemas terminan siendo equivalentes a encontrar el área debajo de un gráfico. El propósito de las pequeñas aproximaciones es que nos permite replantear el problema de qué tan lejos ha caminado la persona en la pregunta de encontrar el área bajo cierta curva.
 
 ![calculus_graph_slopes.jpg](https://github.com/4GeeksAcademy/machine-learning-content/blob/master/assets/calculus_graph1.jpg?raw=true)
 
 
-Entonces, ya habiendo resuelto el problema reformulándolo como un área debajo de un gráfico, puedes empezar a pensar sobre como conseguir el área debajo de otros gráficos. Ahora veamos un gráfico diferente.
+Entonces, ya habiendo resuelto el problema reformulándolo como un área debajo de un gráfico, puedes empezar a pensar sobre como conseguir el área debajo de otros gráficos. Ahora veamos un gráfico diferente:
 
 ![calculus_graph2.jpg](https://github.com/4GeeksAcademy/machine-learning-content/blob/master/assets/calculus_graph2.jpg?raw=true)
 
-la integral de $f(x)$ corresponde al cálculo del área bajo la gráfica de $f(x)$. El área bajo $f(x)$ entre los puntos $x = a$ y $x = b$ se denota de la siguiente manera:
+La integral de $f(x)$ corresponde al cálculo del área bajo la gráfica de $f(x)$. El área bajo $f(x)$ entre los puntos $x = a$ y $x = b$ se denota de la siguiente manera:
 
 ![formula_1.png](https://github.com/4GeeksAcademy/machine-learning-content/blob/master/assets/formula_1.png?raw=true)
 
@@ -69,7 +69,7 @@ slope= $\frac{(y2−y1)}{(x2−x1)}$ = $\frac{(12-4)}{(3-1)} = 4$
 
 ### Casos de usos de Machine 
 
-Machine learning usa derivadas en la optimización de problemas. Los algoritmos de optimización como el descenso de gradiente utilizan derivadas para decidir si aumentar o disminuir los pesos para maximizar o minimizar algún objetivo (por ejemplo, la precisión de un modelo o las funciones de error). Las derivadas también nos ayudan a aproximar funciones no lineales como funciones lineales (líneas tangentes), que tienen pendientes constantes. Con una pendiente constante, podemos decidir si subir o bajar la pendiente (aumentar o disminuir nuestros pesos) para acercarnos al valor objetivo (class label).
+Machine learning usa derivadas en la optimización de problemas. Los algoritmos de optimización como el descenso de gradiente utilizan derivadas para decidir si aumentar o disminuir los pesos para maximizar o minimizar algún objetivo, por ejemplo, la precisión de un modelo o las funciones de error. Las derivadas también nos ayudan a aproximar funciones no lineales como funciones lineales (líneas tangentes), que tienen pendientes constantes. Con una pendiente constante, podemos decidir si subir o bajar la pendiente (aumentar o disminuir nuestros pesos) para acercarnos al valor objetivo (class label).
 
 
 References:
